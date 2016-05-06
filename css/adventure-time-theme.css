@@ -67,7 +67,7 @@
 	list-style: none;
 }
 
-.sub-menu span, i, .fa {
+.sub-menu span,.sub-menu i,.sub-menu .fa {
 	color: white
 }
 
@@ -82,4 +82,42 @@ h5, img {
 .tittle-adv {
 	font-size: 18px;
 	padding-left: 10px;
+}
+
+/*main content*/
+
+#main-content {
+	padding: 70px 10px;
+	background-color: rgb(239, 239, 239);
+	width: 100%;
+}
+
+.showback, .form-panel, .content-panel {
+	background-color: white;
+	padding: 10px 5px;
+	border-bottom: 2px solid rgb(205, 205, 205);
+	margin-top: 15px;
+}
+
+.showback .fa {
+	color: rgb(103, 103, 103);
+	font-weight: 200;
+}
+
+.btn-theme, .btn-theme02, .btn-theme03, .btn-theme04 {
+	color: rgb(103, 103, 103);
+	font-weight: 200;
+}
+
+h3, h4, label {
+	color: rgb(103, 103, 103);
+	font-weight: 200;
+}
+
+label {
+	text-align: left;
+}
+
+.wrapper {
+	padding: 30px;
 }
